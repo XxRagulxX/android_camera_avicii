@@ -1,0 +1,64 @@
+soong_namespace {
+}
+
+android_app_import {
+	name: "OnePlusCamera",
+	owner: "oneplus",
+	apk: "system_ext/priv-app/OnePlusCamera/OnePlusCamera.apk",
+	certificate: "platform",
+        overrides: ["Camera2"],
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "OnePlusCameraService",
+	owner: "oneplus",
+	apk: "system/priv-app/OnePlusCameraService/OnePlusCameraService.apk",
+	certificate: "platform",
+	privileged: true,
+}
+
+android_app_import {
+	name: "OplusAppPlatform",
+	owner: "oneplus",
+	apk: "system_ext/priv-app/OplusAppPlatform/OplusAppPlatform.apk",
+	certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "OnePlusGallery",
+	owner: "oneplus",
+	apk: "system_ext/priv-app/OnePlusGallery/OnePlusGallery.apk",
+	certificate: "platform",
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "oplus-support-wrapper",
+	owner: "oneplus",
+	jars: ["system/framework/oplus-support-wrapper.jar"],
+}
+
+dex_import {
+	name: "com.oplus.camera.unit.sdk.adapter",
+	owner: "oneplus",
+	jars: ["system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.oplus.camera.unit.sdk",
+	owner: "oneplus",
+	jars: ["system_ext/framework/com.oplus.camera.unit.sdk.jar"],
+	system_ext_specific: true,
+}
+
