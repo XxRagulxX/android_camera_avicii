@@ -7,6 +7,7 @@ PRODUCT_PACKAGES += \
     OnePlusCamera \
     OnePlusCameraService \
     OplusAppPlatform \
+    OplusExSystemService \
     OnePlusGallery
     
 PRODUCT_COPY_FILES += \
