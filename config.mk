@@ -13,8 +13,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/apps/proprietary/product/etc/permissions/com.oneplus.camera.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.oneplus.camera.service.xml \
     vendor/oneplus/apps/proprietary/product/etc/permissions/com.oneplus.camera.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.oneplus.camera.xml \
     vendor/oneplus/apps/proprietary/product/etc/permissions/com.oneplus.gallery.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.oneplus.gallery.xml \
-    vendor/oneplus/apps/proprietary/product/priv-app/OnePlusCamera/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/OnePlusCamera/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so
-    
+    vendor/oneplus/apps/proprietary/product/priv-app/OnePlusCamera/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/OnePlusCamera/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so \
+    vendor/oneplus/apps/proprietary/product/priv-app/OnePlusCameraService/lib/arm64/libCameraMDMHelper.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/OnePlusCameraService/lib/arm64/libCameraMDMHelper.so    
 # Frameworks    
 PRODUCT_PACKAGES += \
     oplus-framework
