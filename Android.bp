@@ -6,7 +6,7 @@ android_app_import {
 	owner: "oneplus",
 	apk: "proprietary/system_ext/priv-app/OnePlusCamera/OnePlusCamera.apk",
 	certificate: "platform",
-        overrides: ["Camera2"],
+        overrides: ["Aperture", "Camera2"],
 	dex_preopt: {
 		enabled: false,
 	},
