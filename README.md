@@ -1,4 +1,4 @@
-# oplus_camera_avicii
+# camera_oneplus_avicii
 This repository contains vendor apps extracted from the OnePlus Nord, intended for use in custom ROMs.
 
 ---
