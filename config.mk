@@ -5,11 +5,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Apps
 PRODUCT_PACKAGES += \
     OnePlusCamera \
-    OnePlusCameraService \
-    OnePlusGallery
-    
+    OnePlusCameraService
+
 PRODUCT_COPY_FILES += \
     vendor/oneplus/apps/proprietary/system/etc/sysconfig/hiddenapi-whitelist-oplus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-oplus.xml \
     vendor/oneplus/apps/proprietary/system/etc/permissions/com.oneplus.camera.service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.oneplus.camera.service.xml \
-    vendor/oneplus/apps/proprietary/system_ext/etc/permissions/com.oneplus.camera.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.oneplus.camera.xml \
-    vendor/oneplus/apps/proprietary/system_ext/etc/permissions/com.oneplus.gallery.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.oneplus.gallery.xml
+    vendor/oneplus/apps/proprietary/system_ext/etc/permissions/com.oneplus.camera.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.oneplus.camera.xml

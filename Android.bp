@@ -21,12 +21,3 @@ android_app_import {
 	certificate: "platform",
 	privileged: true,
 }
-
-android_app_import {
-	name: "OnePlusGallery",
-	owner: "oneplus",
-	apk: "proprietary/system_ext/priv-app/OnePlusGallery/OnePlusGallery.apk",
-	certificate: "platform",
-        system_ext_specific: true,
-	privileged: true,
-}
